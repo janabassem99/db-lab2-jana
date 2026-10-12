@@ -120,6 +120,9 @@ screenshots/README.md        Required screenshots to capture
 ### Mobile layout
 ![Application at 360 pixels wide](screenshots/mobile.png)
 
+### Task dashboard
+![Task dashboard with open-task counter and successful status update](screenshots/dashboard.png)
+
 ## Answers to the lab questions
 
 ### (a) Why does UPDATE/DELETE include AND user_id = %s?
