@@ -81,7 +81,7 @@ For later sessions, activate `.venv` and run `python app.py`. Do not rerun the s
 | R9 | bcrypt hashes with cost 12; parameterized PyMySQL queries; ownership IDs only from the session. |
 | R10 | Shared styling, responsive layout, clear errors, completed-task styling, empty state, name and logout. |
 
-Additional features: open-task count (a listed bonus option), automated application tests, and CSRF tokens on forms. Bonus credit is subject to TA assessment.
+Additional features: open-task count (a listed bonus option), automated application tests, and CSRF tokens on forms. Bonus credit is subject to assessment.
 
 Extra length checks avoid database errors for names over 100 characters and emails over 255 characters. bcrypt accepts at most 72 UTF-8 bytes, so both browser and server reject longer registration passwords with a clear message rather than truncating them. Passwords are never trimmed. Names, emails and task titles are trimmed; emails are lowercased. Email format beyond the lab's required-field rule is not additionally enforced.
 
