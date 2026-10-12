@@ -180,13 +180,3 @@ git commit -m "Add login and private to-do application"
 ```
 
 Before committing, verify `.env`, `.venv` and `instance` are not staged. Create an empty GitHub repository, use its actual URL with `git remote add origin YOUR_REPOSITORY_URL`, then `git branch -M main` and `git push -u origin main`. Use the URL supplied by GitHub, not the literal placeholder. Make subsequent commits for genuine improvements and fixes. If private, share with the TA usernames provided by your course. Do not invent past commits or contributions.
-
-## Common problems
-
-- `Access denied`: match `.env` to your working DBeaver username/password, save, and rerun the connection check.
-- Missing `SECRET_KEY`: add the generated secret to `.env` and save.
-- `No module named ...`: activate `.venv` and install `requirements.txt`.
-- `TemplateNotFound`: `templates` must be beside `app.py` and contain all five HTML files.
-- “This form has expired”: reload the form after logout, session expiry or a server/session reset, then try again.
-- `Address already in use`: stop the earlier Flask terminal using Control+C before starting another server on port 5001.
-- A website favicon 404 does not affect the task features.
