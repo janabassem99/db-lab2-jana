@@ -8,7 +8,7 @@ A small Flask application with registration, login, server-side sessions and a p
 - Student ID: 2304066
 - Group: 1
 - Team: Individual submission
-- Contribution statement: I completed this project as an individual submission. I used an AI assistant for environment setup, explanations, debugging guidance, and assistance generating application code. I personally entered and executed the MySQL schema, configured the database connection, assembled the project files, and tested the application’s features. For languages and tools unfamiliar to me, I used the assistant’s guidance to understand how the components work together. I reviewed the code carefully, with particular attention to the MySQL tables, constraints, queries, and relationships.
+- Contribution statement: I completed this project as an individual submission. I set up and configured the MySQL database, executed the schema, assembled the project files, and tested registration, login, validation, and task management. I reviewed the implementation, focusing particularly on the MySQL tables, relationships, constraints, and queries. I used an AI assistant for setup guidance, explanations, debugging, and help generating parts of the application code.
 
 ## Technologies
 
