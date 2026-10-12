@@ -8,7 +8,6 @@ A small Flask application with registration, login, server-side sessions and a p
 - Student ID: 2304066
 - Group: 1
 - Team: Individual submission
-- Contribution statement: I completed this project as an individual submission. I set up and configured the MySQL database, executed the schema, assembled the project files, and tested registration, login, validation, and task management. I reviewed the implementation, focusing particularly on the MySQL tables, relationships, constraints, and queries. I used an AI assistant for setup guidance, explanations, debugging, and help generating parts of the application code.
 
 ## Technologies
 
@@ -106,7 +105,7 @@ tests/test_app.py            Automated application behaviour tests
 screenshots/README.md        Required screenshots to capture
 ```
 
-## Screenshots — complete before submitting
+## Screenshots 
 
 ### Registration validation
 ![Registration page with required-field errors](screenshots/register-errors.png)
@@ -167,16 +166,3 @@ Manual checks:
 - Inspect `SELECT password_hash FROM users;` in DBeaver. Values should be bcrypt hashes, not passwords.
 - Test at 360px width and capture the screenshots listed above.
 - A refresh after a successful POST must not repeat the action: the server redirects after success.
-
-## GitHub delivery
-
-After reviewing the files, filling the contribution statement, capturing screenshots and testing:
-
-```bash
-git init
-git add .
-git status
-git commit -m "Add login and private to-do application"
-```
-
-Before committing, verify `.env`, `.venv` and `instance` are not staged. Create an empty GitHub repository, use its actual URL with `git remote add origin YOUR_REPOSITORY_URL`, then `git branch -M main` and `git push -u origin main`. Use the URL supplied by GitHub, not the literal placeholder. Make subsequent commits for genuine improvements and fixes. If private, share with the TA usernames provided by your course. Do not invent past commits or contributions.
